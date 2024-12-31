@@ -1,0 +1,13 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "description": "My app",
+  "scripts": {
+    "start": "concurrently \"cd frontend && npm run dev\" \"cd backend && npm run dev\"",
+    "dev": "concurrently \"cd frontend && npm run dev\" \"cd backend && npm run dev\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
