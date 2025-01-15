@@ -28,10 +28,10 @@ export default function Header() {
       <img src={isScrolled ? ModicoLogo : ModicoLogoBig } alt="Modico Logo" className={`transition-all ${isScrolled ? 'w-15 h-10' : 'w-30 h-10'} mr-4`} />
     </div>
     <div>
-      <Link to={'/'} className='mx-5'>Home</Link>
-      <Link to={'/products'} className='mx-5'>Products</Link>
-      <Link to={'/services'} className='mx-5'>Services</Link>
-      <Link to={'/about'} className='mx-5'>About</Link>
+      <Link to={'/'} className='transition-all mx-5 my-5 hover:text-secondary-100 hover:text-lg hover:font-semibold'>Home</Link>
+      <Link to={'/products'} className='transition-all  mx-5 my-5 hover:text-secondary-100 hover:text-lg hover:font-semibold'>Products</Link>
+      <Link to={'/services'} className='transition-all mx-5 my-5 hover:text-secondary-100 hover:text-lg hover:font-semibold'>Services</Link>
+      <Link to={'/about'} className='transition-all mx-5 my-5 hover:text-secondary-100 hover:text-lg hover:font-semibold'>About</Link>
     </div>
   </nav>
     </div>

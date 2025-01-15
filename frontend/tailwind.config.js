@@ -14,6 +14,9 @@ export default {
         },
         "bg-primary": "#F4F4F4",
       },
+      fontFamily: {
+        serif: ["Open Sans"],
+      },
     },
   },
   plugins: [],
